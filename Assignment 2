@@ -1,0 +1,594 @@
+<!--HOME PAGE...............................--> 
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Insert with CSS</title>
+    <style>
+        
+        .styled-image {
+            width: 500px; 
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border: 2px solid #ddd; 
+        }
+    </style>
+</head>
+<body>
+
+    <img src="c:\Users\raval\Downloads\IMG_20250304_115345.jpg" alt="Description of Image" class="styled-image" />
+
+</body>
+</html>-->
+
+<!--LOGIN PAGE............................-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icons img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #c5a2ea;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b18cd9;
+}
+
+.forgot, .signup {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <div class="social-icons">
+            <a href="#"><img src="c:\Users\raval\Downloads\Google_Icons-09-512.png" alt="Google"></a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple"></a>
+            <a href="#"><img src="c:\Users\raval\Downloads\WhatsApp Image 2025-03-04 at 12.35.41 PM.jpeg" alt="Gmail"></a>
+        </div>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p class="forgot"><a href="#">Forgot your username or password?</a></p>
+        <p class="signup">New to PenPal? <a href="#">SIGN UP</a></p>
+    </div>
+</body>
+</html>-->
+
+<!--SIGN UP PAGE.............................-->>
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-section {
+    width: 40%;
+    background: #b590d9;
+}
+
+.right-section {
+    width: 60%;
+    padding: 30px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.social-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.google {
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.apple {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.email {
+    background: white;
+    border: 1px solid #ccc;
+}
+
+.login-btn {
+    background: #b590d9;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.forgot {
+    margin: 15px 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.login-link {
+    color: #b590d9;
+    font-size: 14px;
+}
+
+.login-link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section"></div>
+        <div class="right-section">
+            <h2>Sign Up!</h2>
+            <button class="social-btn google"><img src="c:\Users\raval\Downloads\Google_Icons-09-512.png" alt="Google"> CONTINUE WITH GOOGLE</button>
+            <button class="social-btn apple"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple"> CONTINUE WITH APPLE</button>
+            <button class="social-btn email"><img src="c:\Users\raval\Downloads\WhatsApp Image 2025-03-04 at 12.35.41 PM.jpeg" alt="Email"> CONTINUE WITH EMAIL</button>
+            
+            <button class="login-btn">Login</button>
+            
+            <p class="forgot">Forgot your username or password?</p>
+            <p class="login-link">Already a Pal? <a href="#">LOG IN</a></p>
+        </div>
+    </div>
+</body>
+</html>-->
+
+<!--ABOUT AS PAGE...........................-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenPal - About Us</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+.container {
+    max-width: 400px;
+    height:500px;
+    margin: 20px auto;
+    background-color: #87E6E6;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+h1 {
+    color: #1A00BC;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+}
+
+.heart {
+    font-size: 24px;
+    margin: 10px 0;
+}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">✎ PenPal</div>
+            <nav>
+                <a href="#">Contact</a>
+                <a href="#">Home</a>
+                <a href="#">Me</a>
+            </nav>
+        </header>
+
+        <main>
+            <h1>About us</h1>
+            <p>
+                Interacting with a peer from a different part of the world is one of the best ways for students 
+                to learn about experiences, ways of living, and points of view different from their own.
+
+                
+            </p>
+            <p class="heart"></p>
+            <p>
+                Pen pals are usually strangers whose relationship is based primarily, or even solely, on their exchange of letters.
+            </p>
+        </main>
+    </div>
+</body>
+</html>-->
+
+<!--DASHBORD PAGE..................................-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Insert with CSS</title>
+    <style>
+        
+        .styled-image {
+            width: 400px; 
+            height: auto; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            border: 2px solid #ddd; 
+        }
+    </style>
+</head>
+<body>
+
+    <img src="c:\Users\raval\Downloads\IMG_20250306_140441.jpg" alt="Description of Image" class="styled-image" />
+
+</body>
+</html>-->
+
+<!--CONTACT US PAGE................................-->
+
+<!--<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PenPal - About Us</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+.container {
+    max-width: 400px;
+    height:500px;
+    margin: 50px auto;
+    background-color: #87E6E6;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color:black;
+}
+
+
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header></header>
+
+        <main>
+            <h1>Contact Us</h1><br>
+            <br>
+            <br>
+            <br>
+            <form>
+                <label for="name">First Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Name" required><br><br><br>
+                    <label for="name">Last Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Last name" required><br><br><br>
+                    <label for="name">Email</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your Email" required><br><br><br>
+                    <label for="name">company</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your company name " required><br><br><br>
+                    <label for="name">country of residence</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your country of residence" required><br><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+        </main>
+    </div>
+</body>
+</html>
+
+<!--BLOG PAGE............................-->
+
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Card</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    background-color: #78d4f3;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.cta-button {
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #0000cc;
+}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Blog</h1><br><br><br><br>
+        <form>
+            <label for="name">Bolg section</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Bolg section" required><br><br><br>
+                    <label for="name">Categories:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your categories" required><br><br><br>
+        <button class="cta-button">CTA</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!--LAST PAGE..........................-->
+
+<!--<!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Card</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    background-color: #78d4f3;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.cta-button {
+    background-color: #0000ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.cta-button:hover {
+    background-color: #0000cc;
+}
+        </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Fill the Guest List with your data.</h>
+        <h1>Your rating ★ ★ ★ ★ ★</h1>
+        <form>
+        <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br><br>
+        <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        
+    </div>
+</body>
+</>-->
